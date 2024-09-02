@@ -1,7 +1,15 @@
 [
   {
     "id": 0,
-    "title": "Make dinner",
-    "status": "pending"
+    "title": "make dinner",
+    "status": "todo",
+    "createdAt": "2024-09-02T06:40:59.471Z"
+  },
+  {
+    "id": 1,
+    "title": "make dinner",
+    "status": "todo",
+    "createdAt": "2024-09-02T06:41:16.916Z",
+    "description": "BLAJ"
   }
 ]

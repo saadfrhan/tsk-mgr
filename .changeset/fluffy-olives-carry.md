@@ -1,0 +1,5 @@
+---
+"tsk-mgr": minor
+---
+
+enchancements
