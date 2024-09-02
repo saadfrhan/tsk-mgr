@@ -1,5 +1,11 @@
 # tsk-mgr
 
+## 1.1.0
+
+### Minor Changes
+
+- [`16ee727`](https://github.com/saadfrhan/tsk-mgr/commit/16ee7279f9a9dbcd8693236b25a7c55cbbe29a74) Thanks [@saadfrhan](https://github.com/saadfrhan)! - enchancements
+
 ## 1.0.2
 
 ### Patch Changes
