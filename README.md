@@ -24,19 +24,21 @@ pnpm dlx tsk-mgr
 ### Help
 
 ```
-Usage: main [options] [command]
+Usage: tsk-mgr [options] [command]
+
+A Task Management CLI
 
 Options:
-  -h, --help             display help for command
+  -h, --help                         display help for command
 
 Commands:
-  add <title>            Add a new task to the list
-  list [status]          List all tasks
-  update <id> <title>    Update the title of a task
-  delete <id>            Delete a task from the list
-  mark-in-progress <id>  Mark a task as in progress
-  mark-done <id>         Mark a task as done
-  help [command]         display help for command
+  add <title> [description]          Add a new task to the list
+  list [status]                      List all tasks
+  update <id> [title] [description]  Update the title of a task
+  delete <id>                        Delete a task from the list
+  mark-in-progress <id>              Mark a task as in progress
+  mark-done <id>                     Mark a task as done
+  help [command]                     display help for command
 ```
 
 ## Run locally

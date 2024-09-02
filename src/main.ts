@@ -10,6 +10,8 @@ import { markDoneCommand } from "./commands/mark-done.js";
 
 const program = new Command();
 
+program.name("tsk-mgr").description("A Task Management CLI");
+
 program.addCommand(addCommand);
 program.addCommand(listCommand);
 program.addCommand(updateCommand);
