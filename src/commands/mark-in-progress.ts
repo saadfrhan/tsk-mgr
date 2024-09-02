@@ -13,4 +13,5 @@ export const markInProgressCommand = new Command("mark-in-progress")
       });
       writeTasks(JSON.stringify(updatedTasks, null, 2), parseInt(id, 10), 'updated');
     });
-  });
+  })
+  .description("Mark a task as in progress");

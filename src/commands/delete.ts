@@ -8,4 +8,5 @@ export const deleteCommand = new Command("delete")
       const updatedTasks = allTasks.filter((task) => task.id !== parseInt(id, 10));
       writeTasks(JSON.stringify(updatedTasks, null, 2), parseInt(id, 10), 'deleted');
     });
-  });
+  })
+  .description("Delete a task from the list");

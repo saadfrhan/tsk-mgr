@@ -14,4 +14,5 @@ export const updateCommand = new Command("update")
       });
       writeTasks(JSON.stringify(updatedTasks, null, 2), parseInt(id, 10), 'updated');
     });
-  });
+  })
+  .description("Update the title of a task");

@@ -13,4 +13,5 @@ export const markDoneCommand = new Command("mark-done")
       });
       writeTasks(JSON.stringify(updatedTasks, null, 2), parseInt(id, 10), 'updated');
     });
-  });
+  })
+  .description("Mark a task as done");
