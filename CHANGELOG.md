@@ -1,5 +1,11 @@
 # tsk-mgr
 
+## 1.0.2
+
+### Patch Changes
+
+- [`d574604`](https://github.com/saadfrhan/tsk-mgr/commit/d574604ae3fbc49cb7ddc718b853fb44f9397a76) Thanks [@saadfrhan](https://github.com/saadfrhan)! - add readme, change node version to 20
+
 ## 1.0.1
 
 ### Patch Changes
